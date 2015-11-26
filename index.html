@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/myfactory.css">
+    <title>Order Cars Now!</title>
+</head>
+<body>
+
+<div class="container"> </div>
+<div id="myModal" class="modal fade" role="dialog">
+
+    <div id="popupOrder">
+	<form action="#", id="form", method="post", name="form"></form>
+	<font color="white"><h3>Nice job bud, you just ordered some cars</h3></font>
+	<hr>
+	<li><input id="email", name="email", placeholder= "Email", type="text"></li>
+	<li><textarea id= "msg", name="message", placeholder ="Message"></textarea></li>
+	<form>
+	<a href="submit.html">Send</a>
+	<button type="button" id="submit" class="btn btn-link", data-toggle="modal"  data-target="#myModal">Close</button>
+	<span class="glyphicons glyphicons-cars"></span>
+	</form>
+      </div>
+  </div>
+</div>
+
+
+	<font color="grey"><form id="carfactory" action="#">
+		
+		<label for= "make">Make:</label>
+		<select name="make">
+			<option value="BMW">BMW</option>
+			<option value="Lexus">Lexus</option>
+			<option value="Chrysler">Chrysler</option>
+			</select>
+		<label for= "model">Model:</label>
+		<select name="model">
+			<option value="i8">i8</option>
+			<option value="LX">LX</option>
+			<option value="300C">300C</option>
+			</select>
+		</select>
+		<label for= "color">Color:</label>
+		<select name="color">
+			<option value="Black">Black</option>
+			<option value="Blue">Blue</option>
+			<option value="Forest Green">Forest Green</option>
+			</select>
+		<label for= "quantity">Quantity:</label>
+			<input type="text" id="quantity" name="quantity">
+<button type="button" id="openmodal" class="btn btn-link" data-toggle="modal" data-target="#myModal">Submit!</button>
+  
+
+		</form></font>
+
+	</form>
+
+	<section id="response">
+	</section>
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>

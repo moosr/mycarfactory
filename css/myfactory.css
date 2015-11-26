@@ -1,0 +1,41 @@
+img {
+	min-height: %;
+	min-width: 1024px;
+	width: 100%;
+	height: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+form {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+}
+@media screen and (max-width: 1024px) {
+	img {
+		left: 50%
+		margin-left: -512px;
+
+	}
+}
+
+.modal {
+	height: 100%;
+	width: 100%;
+	border: 1px;
+	border-radius: 8px;
+	background: 754719;
+	left: 50%;
+	margin-left: 200px;
+}
+
+.overlay {
+	position: absolute;
+	height:  100%;
+	width:  100%;
+	background: rgba(0,0,0,0,7);
+	display: none;
+}
+
